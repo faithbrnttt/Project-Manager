@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+body {
+    background-color: rgb(234, 217, 219);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-block: 3rem;
+    background-color: rgb(24, 112, 184);
+    color: rgb(26, 11, 83);
+    font-size: 40px;
+}
+
+
+input,
+textarea,
+.submit {
+    margin-block: 10px;
+    padding: .25rem;
+    background-color: rgb(233, 230, 247);
+    border-radius: 10px;
+    border: 3px solid rgb(63, 182, 241);
+    width: 355px;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    
+}
+
+textarea {
+    height: 100px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.block {
+    align-self: start;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(26, 11, 83);
+}
+
+
+.s-btn {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
+    height: 50px;
+    background-color: rgb(100, 182, 214);
+    border: 3px solid rgb(3, 48, 71);
+    cursor: pointer;
+    color: rgb(26, 11, 83);
+    font-weight: bold;
+    font-size: 24px;
+    box-shadow: 4px 6px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.p-btn,
+.r-btn,
+.create-update,
+.cancel {
+    background-color: rgb(100, 182, 214);
+    border: 3px solid rgb(3, 48, 71);
+    box-shadow: 4px 6px 5px 3px rgba(0, 0, 0, 0.2);
+    width: 100px;
+}
+
+.r-btn,
+.create-update,
+.cancel {
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(26, 11, 83);
+}
+
+.s-btn:hover,
+.p-btn:hover,
+.r-btn:hover,
+.create-update:hover,
+.cancel:hover  {
+    box-shadow: none;
+    background-color: rgb(194, 179, 237);
+}
+
+.form-title {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(24, 112, 184);
+    text-underline-offset: 10px;
+    padding-block: .95rem;
+}
+
+.form-container,
+.list-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-inline: 3rem;
+    padding-block: 2rem;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+
+/* Scope styles to this table only */
+#projects-table {
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#projects-table th,
+#projects-table td {
+    padding-right: 0.6rem;
+    padding-bottom: 0.6rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(26, 11, 83);
+}
+
+/* Optional: make buttons consistent */
+#projects-table button {
+    padding: 0.4rem 0.8rem;
+    color: rgb(26, 11, 83);
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgb(100, 182, 214);
+    border: 3px solid rgb(3, 48, 71);
+    font-weight: bold;
+}
+
+#projects-table button:hover {
+    background-color: rgb(194, 179, 237);
+}
+
+.input-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-update {
+    margin-right: 10px;
+}
+.actions {
+    display: flex;
+    
+}
+
+
+@media (max-width: 1024px) {
+    .content-container {
+        flex-direction: column;
+
+    }
+
+    .form-title {
+        text-align: center;
+    }
+}
