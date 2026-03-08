@@ -8,8 +8,9 @@ A web application designed to help users organize projects, track tasks, and man
 
 ---
 
-👩‍💻 **Created by Faith Burnett (faithb.dev)**  
+👩‍💻 **Created by Faith Burnett**  
 Full-Stack Developer • Data Engineering • Systems Integration
+🌐 https://faithb.dev
 
 </div>
 
@@ -269,14 +270,14 @@ The project reflects my interests in:
 Full-Stack Developer  
 Data Engineering • Systems Integration
 
-GitHub  
-https://github.com/faithbrnttt
-
-Portfolio  
+🌐 Portfolio
 https://faithb.dev
 
-LinkedIn
-www.linkedin.com/in/faithbdev
+💻 GitHub
+https://github.com/faithbrnttt
+
+🔗 LinkedIn
+https://www.linkedin.com/in/faithbdev
 
 ---
 
